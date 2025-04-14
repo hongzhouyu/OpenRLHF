@@ -14,6 +14,7 @@ def preprocess_data(
     apply_chat_template=None,
     is_dpo=False,
 ) -> str:
+    # data 是一条数据，不是 batch
     if apply_chat_template:
         if prompt_key:
             prompt = apply_chat_template(data[prompt_key], tokenize=False, add_generation_prompt=True)
