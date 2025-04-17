@@ -3,6 +3,7 @@ bitsandbytes
 datasets
 deepspeed==0.16.5
 einops
+flash-attn==2.7.4.post1
 isort
 jsonlines
 loralib
@@ -16,8 +17,7 @@ tensorboard
 torch
 torchmetrics
 tqdm
-transformers==4.50.0
+transformers==4.51.3
 transformers_stream_generator
 wandb
 wheel
-flash_attn
